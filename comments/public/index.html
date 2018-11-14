@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Comments!</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="javascripts/comments.js"></script>
+
+    <body bgcolor="#ff9966">
+</head>
+
+<body>
+    <center>
+        <h1>Wall of Graffiti</h1>
+        <form id="commentForm" action="">
+            <label for="comment">Message: </label><input type="text" id="comment" placeholder="Text" maxlength="50"><br>
+        </form>
+        <button id="postComment">Write</button>
+        <button id="getComments">Read Wall</button>
+        <div id="comments"></div>
+    </center>
+</body>
+
+</html>
